@@ -40,19 +40,11 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
-        <TextBox Grid.Column="2" HorizontalAlignment="Stretch" Height="22" Grid.RowSpan="2" TextWrapping="Wrap" Text="     User" VerticalAlignment="Top" Width="82" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
+        <TextBox Grid.Column="2" HorizontalAlignment="Stretch" Height="auto" Grid.RowSpan="2" TextWrapping="Wrap" Text="User" VerticalAlignment="Stretch" Width="auto" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Foreground="White">
             <TextBox.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Background>
-        </TextBox>
-        <TextBox HorizontalAlignment="Left" Height="24" Grid.RowSpan="3" TextWrapping="Wrap" Text="&#x9;Name/Logo" VerticalAlignment="Top" Width="172" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Grid.ColumnSpan="2">
-            <TextBox.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF7C7C7C" Offset="1"/>
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
@@ -72,7 +64,7 @@
                 </LinearGradientBrush>
             </Label.Background>
         </Label>
-        <Menu Grid.Column="1" Height="40" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <Menu Grid.Column="1" Height="auto" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Black"/>
         <Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="41,2,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -97,5 +89,14 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <TextBox HorizontalAlignment="Stretch" Height="auto" Margin="0,-1,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Stretch" Width="auto" Grid.RowSpan="2" Foreground="White">
+        	<TextBox.Background>
+        		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        			<GradientStop Color="Black" Offset="0"/>
+        			<GradientStop Color="#FF7C7C7C" Offset="1"/>
+        		</LinearGradientBrush>
+        	</TextBox.Background>
+        </TextBox>
+        <TextBox Grid.Column="2" HorizontalAlignment="Stretch" Height="23" Margin="0,315,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Search" VerticalAlignment="Bottom" Width="auto" TextChanged="TextBox_TextChanged_1"/>
     </Grid>
 </Window>
