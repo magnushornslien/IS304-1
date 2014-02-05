@@ -3,106 +3,99 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" mc:Ignorable="d" x:Class="WpfApplication1.MainWindow"
         Title="MainWindow" Height="391" Width="630">
-	<Grid Margin="1,0" Height="359" VerticalAlignment="Top">
-		<Grid.Background>
-			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-				<GradientStop Color="Black" Offset="0"/>
-				<GradientStop Color="#FF999999" Offset="1"/>
-			</LinearGradientBrush>
-		</Grid.Background>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="0*"/>
-			<RowDefinition Height="24*"/>
-			<RowDefinition Height="367*"/>
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="179*"/>
-			<ColumnDefinition Width="350*"/>
-			<ColumnDefinition Width="122*"/>
-		</Grid.ColumnDefinitions>
-		<TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Stretch" Height="auto" TextWrapping="Wrap" VerticalAlignment="Stretch" Text="&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;GoogleMaps" Margin="1.001,107.923,88.19,0" Grid.Row="2" Foreground="White" Grid.ColumnSpan="2">
-			<TextBox.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="#FF347FD8" Offset="1"/>
-				</LinearGradientBrush>
-			</TextBox.Background>
-		</TextBox>
-		<Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="26.075,2.793,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
-			<Button.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="Red" Offset="1"/>
-				</LinearGradientBrush>
-			</Button.Background>
-		</Button>
-		<Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="136.075,4,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
-			<Button.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="Red" Offset="1"/>
-				</LinearGradientBrush>
-			</Button.Background>
-		</Button>
-		<Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="236.075,2.793,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
-			<Button.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="Red" Offset="1"/>
-				</LinearGradientBrush>
-			</Button.Background>
-		</Button>
-		<ListBox Grid.Column="2" HorizontalAlignment="Stretch" Height="auto" Grid.Row="2" VerticalAlignment="Stretch" Margin="30,131.61,0,0">
-			<ListBox.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="#FF3AA6E4" Offset="1"/>
-				</LinearGradientBrush>
-			</ListBox.Background>
-		</ListBox>
-		<CheckBox Content="Hurricane" Grid.Column="2" HorizontalAlignment="Left" Margin="38.215,217.268,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="15.098" Width="67.975" Foreground="White"/>
-		<CheckBox Content="Violence" Grid.Column="2" HorizontalAlignment="Left" Margin="38.215,247.704,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="15.098" Width="67.975" Foreground="White"/>
-		<CheckBox Content="Fire&#xA;" Grid.Column="2" HorizontalAlignment="Left" Margin="38.215,157.803,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="26.373" Width="67.975" RenderTransformOrigin="0.132,0.425" Foreground="White"/>
-		<CheckBox Content="Flood" Grid.Column="2" HorizontalAlignment="Left" Margin="38.215,187.176,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="15.098" Width="67.975" Foreground="White"/>
-		<TextBox HorizontalAlignment="Stretch" Height="auto" Grid.Row="2" TextWrapping="Wrap" Text="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;Tweet-deck" VerticalAlignment="Stretch" Foreground="White">
-			<TextBox.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="#FF3AA6E4" Offset="1"/>
-				</LinearGradientBrush>
-			</TextBox.Background>
-		</TextBox>
-		<TextBox Grid.Column="2" HorizontalAlignment="Left" Height="20.036" Margin="0,2,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="     User" VerticalAlignment="Top" Width="116.19" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
-			<TextBox.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="White" Offset="1"/>
-				</LinearGradientBrush>
-			</TextBox.Background>
-		</TextBox>
-		<TextBox HorizontalAlignment="Left" Height="22" Margin="0,2,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="&#x9;Name/Logo" VerticalAlignment="Top" Width="177.55" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
-			<TextBox.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="White" Offset="1"/>
-				</LinearGradientBrush>
-			</TextBox.Background>
-		</TextBox>
-		<TextBox Grid.Column="1" HorizontalAlignment="Stretch" Height="92.923" Margin="1.001,9.999,0,234.041" Grid.Row="2" TextWrapping="Wrap" Text="&#x9;&#x9;&#x9;&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;Graph" VerticalAlignment="Stretch" Foreground="White" Grid.ColumnSpan="2">
-			<TextBox.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="#FF2D9B32" Offset="1"/>
-				</LinearGradientBrush>
-			</TextBox.Background>
-		</TextBox>
-		<Label Content="   Filter" Grid.Column="2" HorizontalAlignment="Right" Margin="0,107.923,0,205.354" Grid.Row="2" VerticalAlignment="Center" RenderTransformOrigin="1.851,-0.651" Width="86.19" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Foreground="White" Height="23.687">
-			<Label.Background>
-				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-					<GradientStop Color="Black" Offset="0"/>
-					<GradientStop Color="Red" Offset="1"/>
-				</LinearGradientBrush>
-			</Label.Background>
-		</Label>
-	</Grid>
+    <Grid Margin="1,0" Height="Auto" VerticalAlignment="Stretch">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF999999" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="367*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="171*"/>
+            <ColumnDefinition Width="367*"/>
+            <ColumnDefinition Width="82*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Stretch" Height="Auto" TextWrapping="Wrap" VerticalAlignment="Stretch" Text="&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;GoogleMaps" Margin="1,103,0,0" Grid.Row="2" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF347FD8" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <CheckBox Content="Hurricane" Grid.Column="2" HorizontalAlignment="Center" Margin="3,217,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="15" Width="68" Foreground="White"/>
+        <CheckBox Content="Violence" Grid.Column="2" HorizontalAlignment="Center" Margin="3,248,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="15" Width="68" Foreground="White"/>
+        <CheckBox Content="Fire&#xA;" Grid.Column="2" HorizontalAlignment="Center" Margin="3,158,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="26" Width="68" RenderTransformOrigin="0.132,0.425" Foreground="White"/>
+        <CheckBox Content="Flood" Grid.Column="2" HorizontalAlignment="Center" Margin="3,187,0,0" Grid.Row="2" VerticalAlignment="Top" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Height="15" Width="68" Foreground="White"/>
+        <TextBox HorizontalAlignment="Stretch" Height="auto" Grid.Row="2" TextWrapping="Wrap" Text="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;Tweet-deck" VerticalAlignment="Stretch" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF3AA6E4" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox Grid.Column="2" HorizontalAlignment="Stretch" Height="22" Grid.RowSpan="2" TextWrapping="Wrap" Text="     User" VerticalAlignment="Top" Width="82" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Height="24" Grid.RowSpan="3" TextWrapping="Wrap" Text="&#x9;Name/Logo" VerticalAlignment="Top" Width="172" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Grid.ColumnSpan="2">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox Grid.Column="1" HorizontalAlignment="Stretch" Margin="1,0,0,0" Grid.Row="2" TextWrapping="Wrap" Text="&#x9;&#x9;&#x9;&#xD;&#xA;&#xD;&#xA;&#x9;&#x9;&#x9;Graph" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2" Height="103">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF2D9B32" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Label Content="  &#x9;Filter" Grid.Column="2" HorizontalAlignment="Stretch" Margin="0,103,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="1.851,-0.651" Width="auto" FontFamily="/WpfApplication1;component/Fonts/#SimSun" Foreground="White" Height="24" >
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Menu Grid.Column="1" Height="40" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
+        <Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="41,2,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="256,2,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Menu" Grid.Column="1" HorizontalAlignment="Left" Height="17" Margin="149,2,0,0" VerticalAlignment="Top" Width="83" RenderTransformOrigin="0.494,-1" Grid.Row="1" Foreground="White" FontFamily="/WpfApplication1;component/Fonts/#SimSun">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
 </Window>
