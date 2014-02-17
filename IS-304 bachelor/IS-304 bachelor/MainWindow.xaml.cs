@@ -13,32 +13,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+ 
+
 namespace WpfApplication1
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
+    {   
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();         
+            
+            
+            
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            textBox.Text = "Hello WPF!";
-        }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
 
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
@@ -50,8 +44,28 @@ namespace WpfApplication1
 
         }
 
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        private  void SearchTextBox_Search(object sender, TextChangedEventArgs e)
         {
+           
+            
+        }
+
+        private void SearchTextBox_TextChanged(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+
+        private void SearchTextBox_LostFocus(object sender, System.EventArgs e)
+	{
+       
+	}
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            Docs.GetDatabase();         
+
 
         }
     }
