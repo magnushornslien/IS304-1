@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IS-304 Bachelor", "IS-304 Bachelor.csproj", "{DFDF2A06-E938-46CB-818B-9356332C956E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIControls", "..\UIControls\UIControls.csproj", "{638175C2-E2B1-43EE-8D1F-3ADE48AF0F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DFDF2A06-E938-46CB-818B-9356332C956E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFDF2A06-E938-46CB-818B-9356332C956E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFDF2A06-E938-46CB-818B-9356332C956E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638175C2-E2B1-43EE-8D1F-3ADE48AF0F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638175C2-E2B1-43EE-8D1F-3ADE48AF0F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638175C2-E2B1-43EE-8D1F-3ADE48AF0F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638175C2-E2B1-43EE-8D1F-3ADE48AF0F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
