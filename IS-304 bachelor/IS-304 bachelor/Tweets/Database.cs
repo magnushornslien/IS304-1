@@ -52,7 +52,7 @@ namespace WpfApplication1
 
         public static event PropertyChangedEventHandler PropertyChanged;*/
         private static string _queryTest;
-        // get and set methods for the field QueryTest
+
         public static string QueryTest
         {
             get { return _queryTest; }
@@ -68,7 +68,7 @@ namespace WpfApplication1
 
         private static ObservableCollection<Tweets> _TweetOC = new ObservableCollection<Tweets>();
         public static ObservableCollection<Tweets> TweetOC
-        {   //get and set methods for the collection.
+        {
             get { return _TweetOC; }
 
             set
@@ -80,10 +80,10 @@ namespace WpfApplication1
         }
 
 
-        //Method for setting field QueryTest. Don't knwow if it should be used.
+
  /*       public void setQueryTest(String query)
         {
-            
+            query = "a";
 
             query = QueryTest;
 
